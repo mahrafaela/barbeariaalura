@@ -36,7 +36,7 @@ nav a:hover{
 .produtos{
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px;
+	/*padding: 50px;*/	
 }
 .produtos li{
 	display: inline-block;
@@ -61,10 +61,6 @@ nav a:hover{
 	
 }
 
-.produtos li:hover h2{
-	font-size: 40px;
-}
-
 .produtos li:active{
 	border-color: #088c19;
 }
@@ -75,52 +71,3 @@ nav a:hover{
 	font-weight: bold;
 	margin: 10px;
 }
-
-footer{
-	background-color: #ccc;
-	text-align: center;
-	background: url(bg.jpg);
-	padding: 40px 0;
-}
-
-footer p{
-	color: white;
-	font-size: 12px;
-}
-
-main{
-	width: 940px;
-	margin: 0 auto;
-}
-
-form{
-	margin: 40px 0;
-}
-
-input{
-	border: 2px solid rgb(0, 208, 255);
-	border-radius: 5px;
-
-}
-
-
-
-input:hover{
-	border: 2px solid blueviolet;
-}
-
-form label{
-	display: block;
-	font-size: 20px;
-	margin: 5px;
-}
-
-form input{
-	display: block;
-	margin: 0 0 20px 0;
-	padding: 5px 25px;
-	width: 50%;
-}
-
-
-
