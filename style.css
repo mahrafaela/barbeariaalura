@@ -166,12 +166,15 @@ td{
 .titulo-centralizado{
 	
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.3em;
 	margin: 1em 0 1em;
+	font-family: 'Lobster', sans-serif;
 }
 
 .principal p{
 	margin: 0 0 1em;
+	font-family: 'Cookie', cursive;
+	font-size: 2em;
 }
 
 .principal strong{
