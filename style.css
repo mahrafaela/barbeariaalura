@@ -1,5 +1,5 @@
 header {
-	background: #539188;
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -66,7 +66,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-	border-color: #36f1c9;
+	border-color: #088c19;
 }
 
 
@@ -98,32 +98,49 @@ form{
 }
 
 input{
-	border: 2px solid rgb(0, 208, 255);
+	
 	border-radius: 5px;
 
 }
 
 
 
-input:hover{
-	border: 2px solid rgb(68, 160, 137);
-}
-
 form label{
 	display: block;
 	font-size: 20px;
-	margin: 5px;
+	margin: 0 0 10px 0;
+	
 }
 
-form input{
+form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
-	padding: 5px 25px;
+	padding: 10px 25px;
 	width: 50%;
 }
 
 textarea{
-	margin: 0 0 20px 0;
+	margin:0 0 20px 0;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background-color:orange ;
+	color: aquamarine;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+
+.enviar:hover{
+	background-color: black;
+	color: white;
+	transform: scale(1.05);
 }
 
 table{
@@ -131,14 +148,14 @@ table{
 }
 
 thead{
-	background: rgb(68, 160, 137);;
+	background: #555;
 	color: white;
 	font-weight: bold;
 }
 
 td{
-	border: 2px solid black;
-	padding: 15px 15px;
+	border: 2px solid #000;
+	padding: 15px 66px;
 }
 
 /*CSS da página principal*/
@@ -146,5 +163,31 @@ td{
 	width: 100%;
 }
 
+.titulo-centralizado{
+	
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em;
+}
 
+.principal p{
+	margin: 0 0 1em;
+}
 
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagembeneficios{
+	width: 60%;
+}
+
+.utensilios{
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
